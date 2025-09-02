@@ -1,0 +1,18 @@
+.icon {
+  display: block;
+  margin: auto;
+  clip-path: circle();
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  float: right;
+}

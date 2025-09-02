@@ -1,0 +1,61 @@
+.scroll-button {
+  display: inline-block;
+  background-color: #6c584c;
+}
+.scroll-button img {
+  width: 30px;
+  height: 80px;
+}
+
+.carousel-title {
+  display: flex;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 50px;
+}
+
+.carousel-title span {
+  background-color: #a3b18a;
+  color: black;
+  padding: 10px 15px;
+  box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.carousel-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: max-content;
+  background-color: #f0ead2;
+  gap: 30px;
+  /*border: 2px solid black;
+  border-radius: 5px; */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
+
+.list-container {
+  white-space: nowrap;
+  overflow-x: scroll;
+  padding: 10px;
+  width: 1300px;
+  scroll-behavior: smooth;
+  overflow: hidden;
+}
+
+.list-item {
+  margin-right: 10px;
+  margin-left: 10px;
+  display: inline-block;
+  background-color: #a98467;
+  width: 230px;
+  height: 230px;
+  text-align: left;
+  padding: 10px;
+}
+
+.carousel-padding {
+  margin-left: 50px;
+}
